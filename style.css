@@ -12,7 +12,19 @@ h1{
 
 /* Erika Start */
 .fudge-brownie{
+    background-color: #e9c7b3;
+}
+.fudge-brownie-pic{
+    background-color: #e9c7b3;
+    margin-left: 10vw;
+    transform: scale(0.4);
+    opacity: 1;
+    transition: margin-left 2s;
+}
 
+.pic-slide{
+    transform: scale(1);
+    margin-left: 40vw;
 }
 
 /* Erika Slut */
