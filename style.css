@@ -1,26 +1,74 @@
-*{
+@import url("https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap");
 
+/* GLOBAL SETTING */
+html {
+    box-sizing: border-box;
 }
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Spicy Rice', cursive;
+}
+/* GLOBAL SETTING END */
 
 .title{
     text-align: center;
     font-size: 400%;
 }
 
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* Shirley START */
+/* HEADER SECTION */
+.header {
+    overflow: hidden;
+}
+.headerBg {
+  display: -ms-grid;
+  display: grid;
+  /* -ms-grid-columns: (auto)[10]; */
+      grid-template-columns: repeat(10, auto);
 }
 
-.section{
-    height: 90vh;
-    text-align: center;
-    padding: 10px;
+.headerBg div {
+  background-color: whitesmoke;
+  height: 40vh;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
-/* Erika Start */
-.fudge-brownie{
+.header h1 {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    opacity: 0;
+    font-size: 5em;
+    font-weight: normal;
+    letter-spacing: 3px;
+    z-index: 2;
+  }
 
+.icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  width: 3.6em;
+  height: auto;
+  z-index: 2;
+  opacity: 0;
+
+  transform: rotateX(0deg) scale(1);
+  transition: all .6s ease-in-out;
 }
+
+.icon:hover {
+    transform: rotateX(20deg) scale(1.2);
+}
+/* Shirley STUT */
 
 /* Erika Slut */
 
@@ -37,8 +85,8 @@ h1{
 
 /* Shirley Start */
 .minter-wonderland{
-    
+    display: grid;
+    justify-items: center;
 }
 
 /* Shirley Slut */
-
