@@ -1,13 +1,20 @@
 *{
-    background-color: rgb(95, 93, 93);
+
+}
+
+.title{
+    text-align: center;
+    font-size: 400%;
 }
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .section{
     height: 90vh;
     text-align: center;
+    padding: 10px;
 }
 
 /* Erika Start */
@@ -21,7 +28,7 @@ h1{
 
 /* Ellinor Start */
 .cookie-dough{
-
+    background-color: rgba(189, 184, 164, 0.74);
 }
 
 /* Ellinor Slut */
