@@ -4,7 +4,7 @@ const tl = anime.timeline({
 })
 
 tl.add({
-    targets: '.header',
+    targets: '.headerBg div',
     width: '100%',
     backgroundColor: 'rgb(197, 242, 255)',
     delay: anime.stagger(100)
@@ -24,7 +24,7 @@ tl.add({
 })
 
 tl.add({
-    targets: 'h1',
+    targets: '.header h1',
     top: '15%',
     opacity: 1,
     duration: 4000
