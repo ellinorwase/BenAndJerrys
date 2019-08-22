@@ -13,7 +13,9 @@ clickFunction.onclick = function(){
             easing: "easeInOutSine"
         },
         easing: 'easeInOutQuad',
-        autoplay: false
+        autoplay: false,
+        direction: 'alternate',
+
     });
     
     function loop(t) {
