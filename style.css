@@ -35,7 +35,7 @@ body {
 
 .headerBg div {
   background-color: whitesmoke;
-  height: 40vh;
+  height: 50vh;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
 }
@@ -96,9 +96,17 @@ body {
     margin: 2rem 0;
 }
 
+.hidden {
+    opacity: 0;
+}
+
 .minter-wonderland h1 {
     grid-area: title;
     text-align: center;
+}
+
+.minter-wonderland span {
+    color: indianred;
 }
 
 .minter-wonderland img {
