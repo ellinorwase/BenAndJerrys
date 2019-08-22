@@ -1,13 +1,20 @@
 *{
-    background-color: rgb(95, 93, 93);
+
+}
+
+.title{
+    text-align: center;
+    font-size: 400%;
 }
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .section{
     height: 90vh;
     text-align: center;
+    padding: 10px;
 }
 
 /* Erika Start */
@@ -16,16 +23,29 @@ h1{
 }
 .fudge-brownie-pic{
     background-color: #e9c7b3;
-    margin-left: 10vw;
-    transform: scale(0.4);
-    opacity: 1;
-    transition: margin-left 2s;
 }
 
-.pic-slide{
-    transform: scale(1);
-    margin-left: 40vw;
+.h1-fudge-brownie {
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
 }
+  
+.h1-fudge-brownie .h1-fudge-brownie-wrapper {
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .h1-fudge-brownie .h1-letters {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
 
 /* Erika Slut */
 
@@ -33,7 +53,7 @@ h1{
 
 /* Ellinor Start */
 .cookie-dough{
-
+    background-color: rgba(189, 184, 164, 0.74);
 }
 
 /* Ellinor Slut */
