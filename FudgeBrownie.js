@@ -17,13 +17,24 @@ anime
     delay: 1000
   });
 
-  let hoverPic = document.querySelector(".fudge-brownie-pic").addEventListener("mouseenter", performAction);
 
-  if (hoverPic = true) {
     function performAction() {
         document.querySelector(".fudge-brownie").classList.add("fudge-brownie-after-hover");
-        document.querySelector(".fudge-brownie-pic").classList.add("fudge-brownie-pic-after-hover");   
-  }}else{
+        document.querySelector(".fudge-brownie-pic").classList.add("fudge-brownie-pic-after-hover");  
+        anime({
+            targets: '.fudge-brownie-pic',
+            translateX: [250],
+            rotate: [7],
+            duration: [500],
+            direction: 'alternate',
+            easing: 'easeInOutQuad'
+            });
+    }
+    function removeAction() {
         document.querySelector(".fudge-brownie").classList.remove("fudge-brownie-after-hover");
         document.querySelector(".fudge-brownie-pic").classList.remove("fudge-brownie-pic-after-hover");
-  }
+        
+    }
+
+  document.querySelector(".fudge-brownie-pic").addEventListener("mouseenter", performAction);
+  document.querySelector(".fudge-brownie-pic").addEventListener("mouseleave", removeAction);
