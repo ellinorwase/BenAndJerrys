@@ -82,11 +82,27 @@ body {
     display: grid;
     justify-items: center;
 }
+
+.fudge-brownie-after-hover{
+    background-color: #b3e9c1;
+    display: grid;
+    justify-items: center;
+}
+
 .fudge-brownie-pic{
     background-color: #e9c7b3;
+    padding-top: 5vw;
+}
+
+.fudge-brownie-pic-after-hover{
+    background-color: #b3e9c1;
+    padding-top: 5vw;
 }
 
 .h1-fudge-brownie {
+    color: #f1e3de;
+    margin: 0;
+    text-align: center;
     position: relative;
     font-weight: 200;
     font-size: 4em;
@@ -100,13 +116,13 @@ body {
     padding-right: 0.05em;
     padding-bottom: 0.1em;
     overflow: hidden;
-  }
+}
   
-  .h1-fudge-brownie .h1-letters {
+.h1-fudge-brownie .h1-letters {
     transform-origin: 50% 100%;
     display: inline-block;
     line-height: 1em;
-  }
+}
 
 /* Erika Slut */
 
