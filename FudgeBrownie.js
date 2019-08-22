@@ -33,7 +33,6 @@ anime
     function removeAction() {
         document.querySelector(".fudge-brownie").classList.remove("fudge-brownie-after-hover");
         document.querySelector(".fudge-brownie-pic").classList.remove("fudge-brownie-pic-after-hover");
-        
     }
 
   document.querySelector(".fudge-brownie-pic").addEventListener("mouseenter", performAction);
