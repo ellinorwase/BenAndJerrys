@@ -2,35 +2,37 @@
 
 /* GLOBAL SETTING */
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *::before, *::after{
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    height: 100%;
-    font-family: 'Spicy Rice', cursive;
+  margin: 0;
+  height: 100%;
+  font-family: "Spicy Rice", cursive;
 }
 /* GLOBAL SETTING END */
 
-.title{
-    text-align: center;
-    font-size: 400%;
+.title {
+  text-align: center;
+  font-size: 400%;
 }
 
 /* Shirley START */
 /* HEADER SECTION */
 .header {
-    overflow: hidden;
+  overflow: hidden;
 }
 .headerBg {
   display: -ms-grid;
   display: grid;
   /* -ms-grid-columns: (auto)[10]; */
-      grid-template-columns: repeat(10, auto);
+  grid-template-columns: repeat(10, auto);
 }
 
 .headerBg div {
@@ -41,15 +43,15 @@ body {
 }
 
 .header h1 {
-    position: absolute;
-    top: 30%;
-    left: 12%;
-    opacity: 0;
-    font-size: 5em;
-    font-weight: normal;
-    letter-spacing: 3px;
-    z-index: 2;
-  }
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  opacity: 0;
+  font-size: 5em;
+  font-weight: normal;
+  letter-spacing: 3px;
+  z-index: 2;
+}
 
 .icon {
   cursor: pointer;
@@ -62,61 +64,83 @@ body {
   opacity: 0;
 
   transform: rotateX(0deg) scale(1);
-  transition: all .6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .icon:hover {
-    transform: rotateX(20deg) scale(1.2);
+  transform: rotateX(20deg) scale(1.2);
 }
 /* END HEADER SECTION */
 
-.minter-wonderland{
-    display: grid;
-    justify-items: center;
+.minter-wonderland {
+  display: grid;
+  justify-items: center;
 }
 /* Shirley STUT */
 
 /* Erika Start */
-.fudge-brownie{
-    background-color: #e9c7b3;
-    display: grid;
-    justify-items: center;
+.fudge-brownie {
+  background-color: #e9c7b3;
+  display: grid;
+  justify-items: center;
 }
-.fudge-brownie-pic{
-    background-color: #e9c7b3;
+.fudge-brownie-pic {
+  background-color: #e9c7b3;
 }
 
 .h1-fudge-brownie {
-    position: relative;
-    font-weight: 200;
-    font-size: 4em;
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
 }
-  
+
 .h1-fudge-brownie .h1-fudge-brownie-wrapper {
-    width: 100vw;
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-  }
-  
-  .h1-fudge-brownie .h1-letters {
-    transform-origin: 50% 100%;
-    display: inline-block;
-    line-height: 1em;
-  }
+  width: 100vw;
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.h1-fudge-brownie .h1-letters {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
 
 /* Erika Slut */
 
-
 /* Ellinor Start */
-.cookie-dough{
-    background-color: rgba(189, 184, 164, 0.74);
-    display: grid;
-    justify-content: center;
+div.cookie-dough {
+  background-color: rgba(189, 184, 164, 0.61);
+  /* background-color: rgb(0, 0, 0); */
+  display: grid;
+  justify-content: center;
+}
 
+div.cookie-dough{
+    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.cookie-dough-heading {
+  text-align: center;
+}
+
+.cookie-dough-heading .cookie-dough-wrapper {
+  overflow: hidden;
+}
+.cookie-dough-heading .cookie-dough-letters {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.cookie-dough-text{
+    margin: 0px 90px 20px 90px;
+    font-size: 22px;
+    font-style: inherit;
 }
 
 /* Ellinor Slut */
