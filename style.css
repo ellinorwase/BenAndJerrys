@@ -84,9 +84,40 @@ body {
 
 
 /* Shirley Start */
-.minter-wonderland{
+/* MINTER WINTERLAND */
+.minter-wonderland {
     display: grid;
+    grid-template-areas:
+        "title title title"
+        "image desc desc";
+    grid-gap: 20px;
     justify-items: center;
+    align-content: center;
+    margin: 2rem 0;
+}
+
+.minter-wonderland h1 {
+    grid-area: title;
+    text-align: center;
+}
+
+.minter-wonderland img {
+    grid-area: image;
+    width: 30%;
+    cursor: pointer;
+
+    transform: scale(1);
+    transition: transform .4s ease;
+}
+
+.minter-wonderland img:hover {
+    transform: scale(1.3);
+}
+
+.minter-wonderland p {
+    grid-area: desc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
 }
 
 /* Shirley Slut */
