@@ -2,7 +2,7 @@ let clickFunction = document.getElementById("click-function");
 clickFunction.addEventListener("mouseenter", event => {
   var animation = anime({
     targets: "img.cookie-dough-pic",
-    scale: 1.4,
+    scale: 1.3,
     rotate: "1turn"
   })
 
