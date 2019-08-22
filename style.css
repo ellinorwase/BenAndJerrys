@@ -92,12 +92,8 @@ body {
         "image desc desc";
     grid-gap: 20px;
     justify-items: center;
-    align-content: center;
+    align-items: center;
     margin: 2rem 0;
-}
-
-.hidden {
-    opacity: 0;
 }
 
 .minter-wonderland h1 {
@@ -111,7 +107,7 @@ body {
 
 .minter-wonderland img {
     grid-area: image;
-    width: 30%;
+    width: 70%;
     cursor: pointer;
 
     transform: scale(1);
@@ -124,8 +120,10 @@ body {
 
 .minter-wonderland p {
     grid-area: desc;
+    width: 80%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 /* Shirley Slut */

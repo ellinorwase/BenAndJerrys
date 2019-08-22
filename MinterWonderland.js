@@ -1,4 +1,3 @@
-
 var tlMinter = anime.timeline({
     easing: 'easeOutExpo',
     duration: 750
