@@ -13,7 +13,6 @@ hoverFunction.addEventListener("mouseenter", event => {
       rotate: "1turn",
       direction: 'alternate',
       easing: 'easeInOutQuad',
-
     });
 
   function loop(t) {
@@ -30,13 +29,6 @@ hoverFunction.addEventListener("mouseleave", event => {
     rotate: "2turn"
   });
   spoonAnimation.reset();
-//   animation = anime({
-//     targets: "img.spoon-pic",
-//     rotate: "1turn",
-//     direction: 'alternate',
-//     easing: 'easeInOutQuad',
- 
-//   });
 
   function loop(t) {
     animation.tick(t);

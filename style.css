@@ -5,6 +5,7 @@ html {
   box-sizing: border-box;
 }
 
+
 *,
 *::before,
 *::after {
@@ -12,9 +13,10 @@ html {
 }
 
 body {
-  margin: 0;
-  height: 100%;
-  font-family: "Spicy Rice", cursive;
+    margin: 0;
+    height: 100%;
+    font-family: 'Spicy Rice', cursive;
+
 }
 /* GLOBAL SETTING END */
 
@@ -37,21 +39,22 @@ body {
 
 .headerBg div {
   background-color: whitesmoke;
-  height: 40vh;
+  height: 50vh;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
 }
 
 .header h1 {
-  position: absolute;
-  top: 30%;
-  left: 12%;
-  opacity: 0;
-  font-size: 5em;
-  font-weight: normal;
-  letter-spacing: 3px;
-  z-index: 2;
-}
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 5em;
+    font-weight: normal;
+    opacity: 0;
+    letter-spacing: 3px;
+    z-index: 2;
+  }
 
 .icon {
   cursor: pointer;
@@ -85,10 +88,10 @@ body {
   justify-items: center;
 }
 
-.fudge-brownie-after-hover{
-    background-color: #b3e9c1;
-    display: grid;
-    justify-items: center;
+.fudge-brownie-after-hover {
+  background-color: #b3e9c1;
+  display: grid;
+  justify-items: center;
 }
 
 .fudge-brownie-pic{
@@ -100,12 +103,12 @@ body {
 }
 
 .h1-fudge-brownie {
-    color: #f1e3de;
-    margin: 0;
-    text-align: center;
-    position: relative;
-    font-weight: 200;
-    font-size: 4em;
+  color: #f1e3de;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
 }
 
 .h1-fudge-brownie .h1-fudge-brownie-wrapper {
@@ -117,11 +120,11 @@ body {
    
     overflow: hidden;
 }
-  
+
 .h1-fudge-brownie .h1-letters {
-    transform-origin: 50% 100%;
-    display: inline-block;
-    line-height: 1em;
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
 }
 
 .h1-fudge-brownie .h1-letters {
@@ -150,8 +153,8 @@ div.cookie-dough {
   justify-content: center;
 }
 
-div.cookie-dough{
-    color: rgb(49, 34, 21);
+div.cookie-dough {
+  color: rgb(49, 34, 21);
 }
 
 .cookie-dough-heading {
@@ -161,43 +164,110 @@ div.cookie-dough{
 .cookie-dough-heading .cookie-dough-wrapper {
   overflow: hidden;
 }
+
 .cookie-dough-heading .cookie-dough-letters {
   display: inline-block;
   font-size: 1.5em;
 }
 
-.cookie-dough-text{
-    margin: 0px 90px 20px 90px;
-    font-size: 20px;
-    font-style: inherit;
-}
-
-.colorChange{
-    color: aqua;
+.cookie-dough-text {
+  margin: 0px 90px 10px 90px;
+  font-size: 18px;
+  font-style: inherit;
 }
 
 .pic-div {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Tooltip text */
-  .pic-div .spoon-pic {
-    visibility: hidden;
-    width: 300px;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-  
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  /* Show the tooltip text when you mouse over the tooltip container */
-  .pic-div:hover .spoon-pic {
-    visibility: visible;
-  }
+  position: relative;
+  display: inline-block;
+}
 
-/* Ellinor Slut */
+.pic-div .spoon-pic {
+  visibility: hidden;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+}
+
+.pic-div:hover .spoon-pic {
+  visibility: visible;
+}
+/* Shirley Start */
+/* MINTER WINTERLAND */
+.minter-wonderland {
+    display: grid;
+    grid-template-areas:
+        "title title title"
+        "image desc desc";
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.minter-wonderland h1 {
+    grid-area: title;
+    text-align: center;
+    font-family: 'Spicy Rice', cursive;
+}
+
+.minter-wonderland span {
+    color: indianred;
+}
+
+.panel {
+    grid-area: image;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 3rem;
+    overflow: hidden;
+
+    width: 15em;
+    height: 15em;
+    border: 3px dashed indianred;
+    border-radius: 50%;
+}
+
+.minter-wonderland img {
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+}
+
+.panel:hover img {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.minter-wonderland p {
+    grid-area: desc;
+    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+
+.minter-wonderland p em {
+    border-radius: 5px;
+    padding: 0 4px;
+    margin: 2px 0;
+    color: indianred;
+}
+
+.highlight {
+    position: absolute;
+    display: block;
+    background: rgba(255, 73, 89, 0.2);
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(255, 213, 213, 0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    z-index: -1;
+    transition: all .2s;
+}
+/* Shirley Slut */
