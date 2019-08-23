@@ -5,6 +5,7 @@ html {
   box-sizing: border-box;
 }
 
+
 *,
 *::before,
 *::after {
@@ -87,27 +88,27 @@ body {
   justify-items: center;
 }
 
-.fudge-brownie-after-hover{
-    background-color: #b3e9c1;
-    display: grid;
-    justify-items: center;
+.fudge-brownie-after-hover {
+  background-color: #b3e9c1;
+  display: grid;
+  justify-items: center;
 }
 
-.fudge-brownie-pic{
-    padding-top: 5vw;
+.fudge-brownie-pic {
+  padding-top: 5vw;
 }
 
-.fudge-brownie-pic-after-hover{
-    padding-top: 5vw;
+.fudge-brownie-pic-after-hover {
+  padding-top: 5vw;
 }
 
 .h1-fudge-brownie {
-    color: #f1e3de;
-    margin: 0;
-    text-align: center;
-    position: relative;
-    font-weight: 200;
-    font-size: 4em;
+  color: #f1e3de;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
 }
 
 .h1-fudge-brownie .h1-fudge-brownie-wrapper {
@@ -121,9 +122,9 @@ body {
 }
 
 .h1-fudge-brownie .h1-letters {
-    transform-origin: 50% 100%;
-    display: inline-block;
-    line-height: 1em;
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
 }
 
 .h1-fudge-brownie .h1-letters {
@@ -132,11 +133,11 @@ body {
   line-height: 1em;
 }
 
-.fudge-brownie-text{
-    color: #bf9282;
-    margin: 0px 90px 20px 90px;
-    font-size: 22px;
-    font-style: inherit;
+.fudge-brownie-text {
+  color: #bf9282;
+  margin: 0px 90px 20px 90px;
+  font-size: 22px;
+  font-style: inherit;
 }
 
 /* Erika Slut */
@@ -148,8 +149,8 @@ div.cookie-dough {
   justify-content: center;
 }
 
-div.cookie-dough{
-    color: rgb(49, 34, 21);
+div.cookie-dough {
+  color: rgb(49, 34, 21);
 }
 
 .cookie-dough-heading {
@@ -159,17 +160,33 @@ div.cookie-dough{
 .cookie-dough-heading .cookie-dough-wrapper {
   overflow: hidden;
 }
+
 .cookie-dough-heading .cookie-dough-letters {
   display: inline-block;
   font-size: 1.5em;
 }
 
-.cookie-dough-text{
-    margin: 0px 90px 20px 90px;
-    font-size: 20px;
-    font-style: inherit;
+.cookie-dough-text {
+  margin: 0px 90px 10px 90px;
+  font-size: 18px;
+  font-style: inherit;
 }
 
+.pic-div {
+  position: relative;
+  display: inline-block;
+}
+
+.pic-div .spoon-pic {
+  visibility: hidden;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+}
+
+.pic-div:hover .spoon-pic {
+  visibility: visible;
+}
 /* Shirley Start */
 /* MINTER WINTERLAND */
 .minter-wonderland {
