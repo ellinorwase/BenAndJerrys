@@ -96,12 +96,29 @@ body {
     margin: 2rem 0;
 }
 
-.minter-wonderland h1 {
+/* .minter-wonderland h1 {
     grid-area: title;
     text-align: center;
 }
 
 .minter-wonderland span {
+    color: indianred;
+} */
+
+.header {
+    grid-area: title;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 1.2s ease-out;
+}
+
+.header-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.header span {
     color: indianred;
 }
 
