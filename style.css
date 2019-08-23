@@ -5,7 +5,6 @@ html {
   box-sizing: border-box;
 }
 
-
 *,
 *::before,
 *::after {
@@ -13,10 +12,9 @@ html {
 }
 
 body {
-    margin: 0;
-    height: 100%;
-    font-family: 'Spicy Rice', cursive;
-
+  margin: 0;
+  height: 100%;
+  font-family: "Spicy Rice", cursive;
 }
 /* GLOBAL SETTING END */
 
@@ -25,7 +23,6 @@ body {
   font-size: 400%;
 }
 
-/* Shirley START */
 /* HEADER SECTION */
 .header {
   overflow: hidden;
@@ -45,16 +42,16 @@ body {
 }
 
 .header h1 {
-    position: absolute;
-    top: 30%;
-    left: 12%;
-    font-family: 'Spicy Rice', cursive;
-    font-size: 5em;
-    font-weight: normal;
-    opacity: 0;
-    letter-spacing: 3px;
-    z-index: 2;
-  }
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  font-family: "Spicy Rice", cursive;
+  font-size: 5em;
+  font-weight: normal;
+  opacity: 0;
+  letter-spacing: 3px;
+  z-index: 2;
+}
 
 .icon {
   cursor: pointer;
@@ -79,9 +76,8 @@ body {
   display: grid;
   justify-items: center;
 }
-/* Shirley STUT */
 
-/* Erika Start */
+/* Fudge Brownie Start */
 .fudge-brownie {
   background-color: #e9c7b3;
   display: grid;
@@ -94,12 +90,12 @@ body {
   justify-items: center;
 }
 
-.fudge-brownie-pic{
-    padding-top: 2vw;
+.fudge-brownie-pic {
+  padding-top: 2vw;
 }
 
-.fudge-brownie-pic-after-hover{
-    padding-top: 2vw;
+.fudge-brownie-pic-after-hover {
+  padding-top: 2vw;
 }
 
 .spoon-pic-margin{
@@ -116,13 +112,13 @@ body {
 }
 
 .h1-fudge-brownie .h1-fudge-brownie-wrapper {
-    width: 100vw;
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-   
-    overflow: hidden;
+  width: 100vw;
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+
+  overflow: hidden;
 }
 
 .h1-fudge-brownie .h1-letters {
@@ -137,20 +133,20 @@ body {
   line-height: 1em;
 }
 
-.fudge-brownie-text{
-    color: #bf9282;
-    margin: 0px 90px 20px 90px;
-    font-size: 18px;
-    font-style: inherit;
+.fudge-brownie-text {
+  color: #bf9282;
+  margin: 0px 90px 20px 90px;
+  font-size: 18px;
+  font-style: inherit;
 }
 
-.fudge-brownie-text-p{
+.fudge-brownie-text-p {
   margin-top: 0;
 }
 
-/* Erika Slut */
+/* Fudge Brownie Slut */
 
-/* Ellinor Start */
+/* Cookie Dough Start */
 div.cookie-dough {
   background-color: rgba(189, 184, 164, 0.61);
   display: grid;
@@ -190,88 +186,89 @@ div.cookie-dough {
   width: 300px;
   position: absolute;
   z-index: 1;
-}
+} 
 
 .pic-div:hover .spoon-pic {
   visibility: visible;
 }
-/* Shirley Start */
-/* MINTER WINTERLAND */
+/* Cookie Dough Slut */
+
+/* MINTER WINTERLAND Start */
 .minter-wonderland {
-    display: grid;
-    grid-template-areas:
-        "title title title"
-        "image desc desc";
-    grid-gap: 20px;
-    justify-items: center;
-    align-items: center;
-    margin: 2rem 0;
+  display: grid;
+  grid-template-areas:
+    "title title title"
+    "image desc desc";
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin: 2rem 0;
 }
 
 .minter-wonderland h1 {
-    grid-area: title;
-    text-align: center;
-    font-family: 'Spicy Rice', cursive;
+  grid-area: title;
+  text-align: center;
+  font-family: "Spicy Rice", cursive;
 }
 
 .minter-wonderland span {
-    color: indianred;
+  color: indianred;
 }
 
 .panel {
-    grid-area: image;
+  grid-area: image;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 3rem;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 3rem;
+  overflow: hidden;
 
-    width: 15em;
-    height: 15em;
-    border: 3px dashed indianred;
-    border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  border: 3px dashed indianred;
+  border-radius: 50%;
 }
 
 .minter-wonderland img {
-    width: 60%;
-    height: auto;
-    cursor: pointer;
+  width: 60%;
+  height: auto;
+  cursor: pointer;
 }
 
 .panel:hover img {
-    transform: scale(1.2);
-    transition: transform 0.5s;
+  transform: scale(1.2);
+  transition: transform 0.5s;
 }
 
 .minter-wonderland p {
-    grid-area: desc;
-    width: 80%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
-    line-height: 1.5em;
-    cursor: pointer;
+  grid-area: desc;
+  width: 80%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  cursor: pointer;
 }
 
 .minter-wonderland p em {
-    border-radius: 5px;
-    padding: 0 4px;
-    margin: 2px 0;
-    color: indianred;
+  border-radius: 5px;
+  padding: 0 4px;
+  margin: 2px 0;
+  color: indianred;
 }
 
 .highlight {
-    position: absolute;
-    display: block;
-    background: rgba(255, 73, 89, 0.2);
-    top: 0;
-    left: 0;
-    border-radius: 5px;
-    border-bottom: 1px solid rgba(255, 213, 213, 0.3);
-    box-shadow: 0 0 5px rgba(0,0,0,.2);
-    z-index: -1;
-    transition: all .2s;
+  position: absolute;
+  display: block;
+  background: rgba(255, 73, 89, 0.2);
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border-bottom: 1px solid rgba(255, 213, 213, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: -1;
+  transition: all 0.2s;
 }
-/* Shirley Slut */
+/* MINTER WINTERLAND Slut */
