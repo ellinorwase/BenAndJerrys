@@ -17,18 +17,22 @@ anime
     delay: 1000
   });
 
+let animation = anime({
+  targets: '.fudge-brownie-pic',
+  translateX: [0,250],
+  rotate: [0,7],
+  duration: 500,
+  direction: 'alternate',
+  easing: 'easeInOutQuad'
+  });
+animation.pause();
 
 function performAction() {
     document.querySelector(".fudge-brownie").classList.add("fudge-brownie-after-hover");
-    document.querySelector(".fudge-brownie-pic").classList.add("fudge-brownie-pic-after-hover");  
-    anime({
-        targets: '.fudge-brownie-pic',
-        translateX: [250],
-        rotate: [7],
-        duration: [500],
-        direction: 'alternate',
-        easing: 'easeInOutQuad'
-        });
+    document.querySelector(".fudge-brownie-pic").classList.add("fudge-brownie-pic-after-hover");
+    
+    if (animation.began == true && animation.completed == false) return;
+    animation.play();
 }
 function removeAction() {
     document.querySelector(".fudge-brownie").classList.remove("fudge-brownie-after-hover");
