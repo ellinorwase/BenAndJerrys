@@ -2,11 +2,13 @@
 
 /* GLOBAL SETTING */
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *::before, *::after{
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -15,21 +17,21 @@ body {
 }
 /* GLOBAL SETTING END */
 
-.title{
-    text-align: center;
-    font-size: 400%;
+.title {
+  text-align: center;
+  font-size: 400%;
 }
 
 /* Shirley START */
 /* HEADER SECTION */
 .header {
-    overflow: hidden;
+  overflow: hidden;
 }
 .headerBg {
   display: -ms-grid;
   display: grid;
   /* -ms-grid-columns: (auto)[10]; */
-      grid-template-columns: repeat(10, auto);
+  grid-template-columns: repeat(10, auto);
 }
 
 .headerBg div {
@@ -62,26 +64,109 @@ body {
   opacity: 0;
 
   transform: rotateX(0deg) scale(1);
-  transition: all .6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .icon:hover {
-    transform: rotateX(20deg) scale(1.2);
+  transform: rotateX(20deg) scale(1.2);
+}
+/* END HEADER SECTION */
+
+.minter-wonderland {
+  display: grid;
+  justify-items: center;
 }
 /* Shirley STUT */
 
-/* Erika Slut */
-
-
-
-/* Ellinor Start */
-.cookie-dough{
-    background-color: rgba(189, 184, 164, 0.74);
+/* Erika Start */
+.fudge-brownie {
+  background-color: #e9c7b3;
+  display: grid;
+  justify-items: center;
 }
 
-/* Ellinor Slut */
+.fudge-brownie-after-hover{
+    background-color: #b3e9c1;
+    display: grid;
+    justify-items: center;
+}
 
+.fudge-brownie-pic{
+    padding-top: 5vw;
+}
 
+.fudge-brownie-pic-after-hover{
+    padding-top: 5vw;
+}
+
+.h1-fudge-brownie {
+    color: #f1e3de;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
+}
+
+.h1-fudge-brownie .h1-fudge-brownie-wrapper {
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.h1-fudge-brownie .h1-letters {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.h1-fudge-brownie .h1-letters {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.fudge-brownie-text{
+    color: #bf9282;
+    margin: 0px 90px 20px 90px;
+    font-size: 22px;
+    font-style: inherit;
+}
+
+/* Erika Slut */
+
+/* Ellinor Start */
+div.cookie-dough {
+  background-color: rgba(189, 184, 164, 0.61);
+  display: grid;
+  justify-content: center;
+}
+
+div.cookie-dough{
+    color: rgb(49, 34, 21);
+}
+
+.cookie-dough-heading {
+  text-align: center;
+}
+
+.cookie-dough-heading .cookie-dough-wrapper {
+  overflow: hidden;
+}
+.cookie-dough-heading .cookie-dough-letters {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.cookie-dough-text{
+    margin: 0px 90px 20px 90px;
+    font-size: 20px;
+    font-style: inherit;
+}
 
 /* Shirley Start */
 /* MINTER WINTERLAND */
