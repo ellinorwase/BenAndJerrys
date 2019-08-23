@@ -17,7 +17,7 @@ anime
     delay: 1000
   });
 
-let animation = anime({
+let fudgePicAnime = anime({
   targets: '.fudge-brownie-pic',
   translateX: [0,250],
   rotate: [0,7],
@@ -26,14 +26,28 @@ let animation = anime({
   easing: 'easeInOutQuad'
   });
 
-  animation.pause();
+let spoonPicAnime = anime({
+  targets: "img.spoon-pic-margin",
+  translateX: [0,250],
+  duration: 500,
+  rotate: "1turn",
+  direction: 'alternate',
+  easing: 'easeInOutQuad',
+});
+
+fudgePicAnime.pause();
+spoonPicAnime.pause();
+
 function performAction() {
     document.querySelector(".fudge-brownie").classList.add("fudge-brownie-after-hover");
     document.querySelector(".fudge-brownie-pic").classList.add("fudge-brownie-pic-after-hover");
     
-    if (animation.began == true && animation.completed == false) return;
-    animation.play();
+    if (fudgePicAnime.began == true && fudgePicAnime.completed == false) return;
+    if (spoonPicAnime.began == true && spoonPicAnime.completed == false) return;
+    fudgePicAnime.play();
+    spoonPicAnime.play();
 }
+
 function removeAction() {
     document.querySelector(".fudge-brownie").classList.remove("fudge-brownie-after-hover");
     document.querySelector(".fudge-brownie-pic").classList.remove("fudge-brownie-pic-after-hover");
