@@ -25,8 +25,8 @@ let animation = anime({
   direction: 'alternate',
   easing: 'easeInOutQuad'
   });
-animation.pause();
 
+  animation.pause();
 function performAction() {
     document.querySelector(".fudge-brownie").classList.add("fudge-brownie-after-hover");
     document.querySelector(".fudge-brownie-pic").classList.add("fudge-brownie-pic-after-hover");
